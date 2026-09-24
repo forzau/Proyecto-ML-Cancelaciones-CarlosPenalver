@@ -35,7 +35,7 @@ cd Proyecto
 jupyter lab proyecto_cancelaciones_hoteleras.ipynb
 ```
 
-El cuaderno espera que `reservas_hoteleras - reservas_hoteleras.csv` esté en su mismo directorio. Ejecuta las celdas en orden. Los cuadernos de `Notebooks/` son ejercicios independientes y algunos requieren bibliotecas adicionales.
+El cuaderno espera que `reservas_hoteleras - reservas_hoteleras.csv` esté en su mismo directorio. Ejecuta las celdas en orden.
 
 ## Alcance y limitaciones
 
@@ -44,4 +44,4 @@ El cuaderno espera que `reservas_hoteleras - reservas_hoteleras.csv` esté en su
 - Las métricas del test corresponden solo a las reservas elegibles: **2.734 de 26.565** reservas del periodo quedaron fuera por las reglas de calidad y de ADR definidas en el análisis.
 - Los datos proceden de dos hoteles y de un periodo histórico concreto. Antes de aplicar el modelo a otros hoteles o fechas, hace falta una validación nueva.
 
-El [cuaderno principal](Proyecto/proyecto_cancelaciones_hoteleras.ipynb) documenta las decisiones metodológicas, los resultados completos y una propuesta de piloto para evaluar posibles acciones sobre las reservas de mayor riesgo.
+El cuaderno principal documenta las decisiones metodológicas, los resultados completos y una propuesta de piloto para evaluar posibles acciones sobre las reservas de mayor riesgo.
